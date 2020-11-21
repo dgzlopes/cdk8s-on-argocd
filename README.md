@@ -10,7 +10,7 @@ This repo explains how to use both together.
 
 ## Configure Argo CD
 
-Argo CD allows integrating more config management tools using config management plugins. Following changes are required to configure CDK8s:
+Argo CD allows integrating more config management tools using config management plugins. Following changes are required to configure cdk8s:
 - Replace `argoproj/argocd` images with our custom images that contain all the things needed to run cdk8s.
 - Register a new cdk8s plugin in `argocd-m` ConfigMap:
 
